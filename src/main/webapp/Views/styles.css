@@ -1,0 +1,68 @@
+@charset "ISO-8859-1";
+
+nav {
+	height: 8vh;
+}
+
+nav h4 {
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.customerBody {
+	width: 100%;
+	padding: 20px 60px;
+}
+
+.customerHeading {
+	height: 8vh;
+	padding: 0px 10px;
+    background-color: gainsboro;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.customerHeading h5 {
+    width: 40%;
+}
+
+.customerContent {
+	height: auto;
+    margin: 20px 0px;
+}
+
+#formCustomer {
+    padding: 10px;
+    background-color: gainsboro;
+}
+
+#formCustomer .left {
+    width: 50%;
+    display: inline-block;
+    padding: 0px 10px;
+    float: left;
+}
+
+#formCustomer .right {
+    width: 50%;
+    display: inline-block;
+    float: left;
+    padding: 0px 10px;
+}
+
+#formCustomer .bottom {
+    width: 100%;
+    padding: 0 20%;
+}
+
+#formCustomer .bottom input {
+    width: 100%;
+}
+
+#formCustomer .bottom .displayErr {
+    display: flex;
+    margin: 10px 0px;
+}
