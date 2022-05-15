@@ -95,16 +95,6 @@ public class CustomerAPI extends HttpServlet {
 	 */
 	
 	
-	
-	protected void doDelete(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		//parameter map
-		Map paras = getParasMap(request);
 
-		//getting values from the map and sending to delete function
-		String output = customerService.deleteCustomer(	paras.get("userID").toString());
-				
-		//sending the output to client
-		response.getWriter().write(output);
-	}
 
 }
